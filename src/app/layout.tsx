@@ -6,8 +6,9 @@ import clsx from 'clsx';
 const dmSans = DM_Sans({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Light Saas Landing Page',
-  description: 'Light Saas Landing Page',
+  title: 'TRACKLY | SaaS',
+  description:
+    'Celebrate the joy of accomplishment with an app designed to track your progress, motivate your efforts, and celebrate your successes.',
 };
 
 export default function RootLayout({
