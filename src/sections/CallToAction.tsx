@@ -15,6 +15,7 @@ export const CallToAction = () => {
   const translateY = useTransform(scrollYProgress, [0, 1], [150, -150]);
   return (
     <section
+      id="updates"
       ref={sectionRef}
       className="bg-gradient-to-b from-white to-[#D2DCFF] py-24 overflow-x-clip"
     >
@@ -47,11 +48,21 @@ export const CallToAction = () => {
           />
         </div>
         <div className="flex gap-2 mt-10 justify-center">
-          <button className="btn btn-primary">Get for free</button>
-          <button className="btn btn-text gap-1">
+          <a
+            href="https://www.upwork.com/freelancers/~016ee239ce423c4bb7?mp_source=share"
+            target="_blank"
+            className="btn btn-primary"
+          >
+            Get for free
+          </a>
+          <a
+            href="https://www.upwork.com/freelancers/~016ee239ce423c4bb7?mp_source=share"
+            target="_blank"
+            className="btn btn-text gap-1"
+          >
             <span className="">Learn more</span>{' '}
             <ArrowRight className="w-5 h-5" />
-          </button>
+          </a>
         </div>
       </div>
     </section>

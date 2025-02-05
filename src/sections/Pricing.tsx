@@ -57,7 +57,7 @@ const pricingTiers = [
 
 export const Pricing = () => {
   return (
-    <section className="bg-white py-24">
+    <section id="features" className="bg-white py-24">
       <div className="container">
         <div className="section-heading">
           <h2 className="section-title">Pricing</h2>
@@ -124,14 +124,16 @@ export const Pricing = () => {
                     /month
                   </span>
                 </div>
-                <button
+                <a
+                  href="https://www.upwork.com/freelancers/~016ee239ce423c4bb7?mp_source=share"
+                  target="_blank"
                   className={twMerge(
                     'btn btn-primary w-full mt-[30px] justify-center',
                     inverse && 'bg-white text-black'
                   )}
                 >
                   {buttonText}
-                </button>
+                </a>
                 <ul className="flex flex-col gap-5 mt-8">
                   {features.map((feature) => (
                     <li

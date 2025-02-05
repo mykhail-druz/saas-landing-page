@@ -18,17 +18,23 @@ export const Header = () => {
       <div className="py-5">
         <div className="container">
           <div className="flex items-center justify-between">
-            <Image src={Logo} alt={'Saas logo'} height={40} width={40} />
+            <a href="/">
+              <Image src={Logo} alt={'Saas logo'} height={40} width={40} />
+            </a>
             <MenuIcon className="h-5 w-5 md:hidden" />
             <nav className="hidden md:flex gap-6 text-black/60 items-center">
-              <a href="/">About</a>
-              <a href="/">Features</a>
-              <a href="/">Customers</a>
-              <a href="/">Updates</a>
-              <a href="/">Help</a>
-              <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items tracking-tight">
+              <a href="/#about">About</a>
+              <a href="/#features">Features</a>
+              <a href="/#customers">Customers</a>
+              <a href="/#updates">Updates</a>
+              <a href="/#help">Help</a>
+              <a
+                href="https://www.upwork.com/freelancers/~016ee239ce423c4bb7?mp_source=share"
+                target="_blank"
+                className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items tracking-tight cursor-pointer"
+              >
                 Get for free
-              </button>
+              </a>
             </nav>
           </div>
         </div>

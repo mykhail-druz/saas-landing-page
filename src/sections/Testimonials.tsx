@@ -15,58 +15,58 @@ import { motion } from 'framer-motion';
 
 const testimonials = [
   {
-    text: 'As a seasoned designer always on the lookout for innovative tools, Framer.com instantly grabbed my attention.',
-    imageSrc: avatar1.src,
-    name: 'Jamie Rivera',
-    username: '@jamietechguru00',
-  },
-  {
-    text: "Our team's productivity has skyrocketed since we started using this tool. ",
+    text: 'This tool revolutionized my design process, unlocking a new level of creativity.',
     imageSrc: avatar2.src,
-    name: 'Josh Smith',
-    username: '@jjsmith',
+    name: 'Alexander Johnson',
+    username: '@alexj_design',
   },
   {
-    text: 'This app has completely transformed how I manage my projects and deadlines.',
+    text: "Since integrating this platform into our workflow, our team's productivity has soared.",
+    imageSrc: avatar1.src,
+    name: 'Emily Davis',
+    username: '@emily_pro',
+  },
+  {
+    text: 'The intuitive interface and powerful features have transformed how I manage projects.',
     imageSrc: avatar3.src,
-    name: 'Morgan Lee',
-    username: '@morganleewhiz',
+    name: 'Michael Thompson',
+    username: '@mike.thompson',
   },
   {
-    text: 'I was amazed at how quickly we were able to integrate this app into our workflow.',
+    text: 'I appreciate how seamlessly this app fits into our daily operations, making work more efficient.',
     imageSrc: avatar4.src,
     name: 'Casey Jordan',
     username: '@caseyj',
   },
   {
-    text: 'Planning and executing events has never been easier. This app helps me keep track of all the moving parts, ensuring nothing slips through the cracks.',
+    text: 'This platform has streamlined our communication and boosted our overall performance.',
     imageSrc: avatar5.src,
-    name: 'Taylor Kim',
-    username: '@taylorkimm',
+    name: 'David Martinez',
+    username: '@david_martinez',
   },
   {
-    text: 'The customizability and integration capabilities of this app are top-notch.',
+    text: 'The robust functionality and ease of use have made it an indispensable tool for our team.',
     imageSrc: avatar6.src,
-    name: 'Riley Smith',
-    username: '@rileysmith1',
+    name: 'Olivia Brown',
+    username: '@olivia_brown',
   },
   {
-    text: 'Adopting this app for our team has streamlined our project management and improved communication across the board.',
+    text: 'With its extensive customization options, this tool perfectly adapts to our unique business needs.',
     imageSrc: avatar7.src,
-    name: 'Jordan Patels',
-    username: '@jpatelsdesign',
+    name: 'Christopher Lee',
+    username: '@chrislee_creative',
   },
   {
-    text: 'With this app, we can easily assign tasks, track progress, and manage documents all in one place.',
+    text: 'Its efficiency and user-friendly design have greatly enhanced our project management process.',
     imageSrc: avatar8.src,
-    name: 'Sam Dawson',
-    username: '@dawsontechtips',
+    name: 'Laura Miller',
+    username: '@laura.miller',
   },
   {
-    text: 'Its user-friendly interface and robust features support our diverse needs.',
+    text: 'I highly recommend this app for teams looking to innovate and elevate their workflow.',
     imageSrc: avatar9.src,
-    name: 'Casey Harper',
-    username: '@casey09',
+    name: 'James Anderson',
+    username: '@james_anderson',
   },
 ];
 
@@ -122,7 +122,7 @@ const TestimonialsColumn = (props: {
 
 export const Testimonials = () => {
   return (
-    <section className="bg-white">
+    <section id="customers" className="bg-white">
       <div className="container">
         <div className="section-header">
           <div className="flex justify-center">
